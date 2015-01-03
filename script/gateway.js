@@ -19,9 +19,17 @@ list.push(new Gateway(
 list.push(new Gateway(
     "ripple cn",
     "CN",
-    "https://ripplecn.com/",
+    "https://ripplecn.com",
     {
         "rnuF96W4SZoCJmbHYBFoJZpR8eCaxNvekK":["BTC","LTC","CNY"],
+    }
+))
+list.push(new Gateway(
+    "ripple fox",
+    "CN",
+    "https://www.ripplefox.com",
+    {
+        "rKiCet8SdvWxPXnAgYarFUXMh1zCPz432Y":["FMM","STR","CNY"],
     }
 ))
 // ----------- EU ------------------

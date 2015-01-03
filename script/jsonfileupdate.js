@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var list = require('./gateway');
 var fs = require('fs');
 
